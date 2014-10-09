@@ -1,0 +1,6 @@
+Thanks for your replying. I think these requests are real requests,which have these features,
+1. Ip addresses are not a few fixed ips.
+2. User-agent are serval types mobile phones'.
+3. some encrypt fields we received are hard to moking by bots.
+4. Today,we alter the source code--use isempty function instead of isset, the problem fixed then.
+But I haven't detail trace these special requests/users, I would to contact one of these uses and obtain more information.
