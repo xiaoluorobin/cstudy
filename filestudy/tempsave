@@ -10,3 +10,14 @@ But I haven't detail trace these special requests/users, I would to contact one 
   849  git reset --soft 6ce5b9569abaa290631b80991c936450a40ecc12
 
 git status ./|grep "新文件"|awk '{print "git commit -m \"batch\" " $2 " & git push"}'|sh
+
+  1 #!/usr/bin/expect -f 
+  2 spawn git push
+  3 expect "Username for 'https://github.com': "
+  4 send "xiaoluorobin\r"
+  5 expect "Password for 'https://xiaoluorbin@github.com': "
+  6 send "**********\r"
+  7 
+  8     expect eof
+  9     exit
+
