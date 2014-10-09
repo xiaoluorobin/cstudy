@@ -5,5 +5,8 @@ Thanks for your replying. I think these requests are real requests,which have th
 4. Today,we alter the source code--use isempty function instead of isset, the problem fixed then.
 But I haven't detail trace these special requests/users, I would to contact one of these uses and obtain more information.
 
+  847  git show f9e2c36b9b506617ff0bd2a97e3974324ed040a2
+  848  git log master ^origin/master
+  849  git reset --soft 6ce5b9569abaa290631b80991c936450a40ecc12
 
 git status ./|grep "新文件"|awk '{print "git commit -m \"batch\" " $2 " & git push"}'|sh
